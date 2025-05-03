@@ -1,4 +1,4 @@
-﻿namespace Csharp
+﻿namespace CSharp.Reflection
 {
     internal class Program
     {
