@@ -40,7 +40,7 @@ This learning plan serves as a **structured guide for developers aiming to maste
 
 ## 📥 PDF Download
 
-Download the full learning plan PDF [here](./Learning_Plan_Enhanced_With_Hangfire.pdf).
+Download the full learning plan PDF [here](./Learning_Plan_Enhanced.pdf).
 
 ---
 
