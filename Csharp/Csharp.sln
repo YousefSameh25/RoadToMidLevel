@@ -4,15 +4,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Reflection", "Reflection", "{5AB71636-F030-4123-A4F5-0C0D6587B7E5}"
-	ProjectSection(SolutionItems) = preProject
-		Resources.txt = Resources.txt
-	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReflectionDemo", "ReflectionDemo\ReflectionDemo.csproj", "{34D91B33-8A51-4F20-811A-9A71A19D118B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assemblies", "Assemblies", "{605BF631-0C69-4A0E-B30C-C07EA28F8E7C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assemblies", "..\..\CAAssemblies\CAAssemblies\Assemblies.csproj", "{F531E702-EF24-46B5-9A89-D57EC15500CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReflectionProject", "..\..\..\..\Downloads\reflection_project\reflection_project\src\ReflectionProject.csproj", "{084E5D4D-097A-4D91-B97F-0FE916D9D74B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,6 +27,10 @@ Global
 		{F531E702-EF24-46B5-9A89-D57EC15500CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F531E702-EF24-46B5-9A89-D57EC15500CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F531E702-EF24-46B5-9A89-D57EC15500CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{084E5D4D-097A-4D91-B97F-0FE916D9D74B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{084E5D4D-097A-4D91-B97F-0FE916D9D74B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{084E5D4D-097A-4D91-B97F-0FE916D9D74B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{084E5D4D-097A-4D91-B97F-0FE916D9D74B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -35,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{34D91B33-8A51-4F20-811A-9A71A19D118B} = {5AB71636-F030-4123-A4F5-0C0D6587B7E5}
 		{F531E702-EF24-46B5-9A89-D57EC15500CE} = {605BF631-0C69-4A0E-B30C-C07EA28F8E7C}
+		{084E5D4D-097A-4D91-B97F-0FE916D9D74B} = {5AB71636-F030-4123-A4F5-0C0D6587B7E5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9C536135-89F1-4FE6-9FB3-2CAFE1C119DB}
