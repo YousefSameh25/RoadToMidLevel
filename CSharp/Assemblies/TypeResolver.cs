@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Concurrent;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Reflection;
 
 namespace AssembliesDemo
 {
@@ -13,6 +6,7 @@ namespace AssembliesDemo
     {
         public static TInterface Resolve<TInterface>()
         {
+
             Assembly assembly = Assembly.LoadFile("C:\\Users\\youse\\source\\YousefSameh25\\RoadToMidLevel\\CSharp\\DummyAssembly\\bin\\Debug\\net8.0\\DummyAssembly.dll");
 
             var interfaceType = typeof(TInterface);
@@ -26,7 +20,7 @@ namespace AssembliesDemo
                 throw new InvalidOperationException($"No implementation of {interfaceType.Name} found in assembly.");
 
             // Create instance
-            return (TInterface)Activator.CreateInstance(implementationType);
+            return (TInterface)Activator.CreateInstance(implementationType)!;
         }
 
     }

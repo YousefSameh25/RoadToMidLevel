@@ -7,17 +7,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Reflection", "Reflection", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReflectionDemo", "ReflectionDemo\ReflectionDemo.csproj", "{34D91B33-8A51-4F20-811A-9A71A19D118B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectionDemo-Eman", "ReflectionDemo-Eman\ReflectionDemo-Eman.csproj", "{D9EDEAA5-F586-4741-9CC6-DD984D5099DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReflectionDemo-Eman", "ReflectionDemo-Eman\ReflectionDemo-Eman.csproj", "{D9EDEAA5-F586-4741-9CC6-DD984D5099DD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assemblies", "Assemblies", "{1463C4AE-F44C-4503-8E8A-7E35616CBAF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssembliesDemo-Eman", "AssembliesDemo-Eman\AssembliesDemo-Eman.csproj", "{279B897A-A90E-4D4C-9AB4-73E18F33D78D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssembliesDemo-Eman", "AssembliesDemo-Eman\AssembliesDemo-Eman.csproj", "{279B897A-A90E-4D4C-9AB4-73E18F33D78D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssembliesDemo", "Assemblies\AssembliesDemo.csproj", "{47D92D4E-30DD-4F1E-B31B-AB4DDFACEB08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssembliesDemo", "Assemblies\AssembliesDemo.csproj", "{47D92D4E-30DD-4F1E-B31B-AB4DDFACEB08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DummyAssembly", "DummyAssembly\DummyAssembly.csproj", "{6B3F7A00-3E42-472A-A683-EE86E2847F91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DummyAssembly", "DummyAssembly\DummyAssembly.csproj", "{6B3F7A00-3E42-472A-A683-EE86E2847F91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISharedDSL", "IShared.DSL\ISharedDSL.csproj", "{7942263A-4182-4B74-B740-48BF23634A6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ISharedDSL", "IShared.DSL\ISharedDSL.csproj", "{7942263A-4182-4B74-B740-48BF23634A6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Threading", "Threading", "{C41257C5-06C7-497D-B248-4D9953880B70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadingDemo", "AsynchronousAndParallelDemo\ThreadingDemo.csproj", "{3D99AECC-42E2-44AA-8A41-2076AE801C87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +53,10 @@ Global
 		{7942263A-4182-4B74-B740-48BF23634A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7942263A-4182-4B74-B740-48BF23634A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7942263A-4182-4B74-B740-48BF23634A6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D99AECC-42E2-44AA-8A41-2076AE801C87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D99AECC-42E2-44AA-8A41-2076AE801C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D99AECC-42E2-44AA-8A41-2076AE801C87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D99AECC-42E2-44AA-8A41-2076AE801C87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +68,7 @@ Global
 		{47D92D4E-30DD-4F1E-B31B-AB4DDFACEB08} = {1463C4AE-F44C-4503-8E8A-7E35616CBAF6}
 		{6B3F7A00-3E42-472A-A683-EE86E2847F91} = {1463C4AE-F44C-4503-8E8A-7E35616CBAF6}
 		{7942263A-4182-4B74-B740-48BF23634A6C} = {1463C4AE-F44C-4503-8E8A-7E35616CBAF6}
+		{3D99AECC-42E2-44AA-8A41-2076AE801C87} = {C41257C5-06C7-497D-B248-4D9953880B70}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9C536135-89F1-4FE6-9FB3-2CAFE1C119DB}
